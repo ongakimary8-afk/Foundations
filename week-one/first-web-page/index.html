@@ -1,0 +1,119 @@
+<!--Tells the browser that this file is a HTML Document-->
+<DOCTYPE html>
+<!--The root element of the html document-->
+<html lang="en">
+
+<!--The head element contains meta-information about the document-->
+<head>
+ <title> My First Web Page</title>
+ <meta name="description" content="HTML Tutorial">
+ <meta name="keywords" content "HTML, learn, tutorial">
+ <meta name ="author" content="programiz team">
+<!--Linking CSS file to my HTML File-->
+ <link rel="stylesheet" href="./style.css">
+ <!--Internal CSS-->
+ <style>
+    p {
+        color: red;
+    }
+    h1 {
+        color : blue;
+    }
+ </style>
+</head>
+<!--The body element contains the content of the document-->
+<body>
+    <!--add inline css-->
+   <h1 style="Color: brown; text-decoration: underline;"> Welcome to my First Web Page</h1>
+   <p class = "first"> This is a paragraph of text on my <strong>First web page</strong></p>
+   <p> This is another paragraph of <br/>text on my first web page</p>
+
+   <!--  Headings  -->
+     <h1> This is Heading 1</h1>
+     <h2> This is Heading 2</h2>
+     <h3> This is Heading 3</h3>
+     <h4> This is Heading 4</h4>
+     <h5> This is Heading 5</h5>
+     <h6> This is Heading 6</h6>
+
+     <!-- Headings are block level element-->
+      <h1>Headings</h1> <h2> Are</h2> <h3>Fun</h3>
+     <!--This is a comment to be addressed-->
+
+     <!--THIS IS A TABLE-->
+     <table border="1" id="myTable">
+        <thead>
+ <tr>
+        <th> Header One</th>
+        <th> Header Two</th>
+        <th> Header Three</th>
+          </tr>
+        </thead>
+        <tbody>
+       
+         <tr>
+            <td> Data One</td>
+            <td> Data Two</td>
+            <td> Data Three</td>
+         </tr>
+
+          <tr>
+            <td> Data Four</td>
+            <td> Data Five</td>
+            <td> Data Six</td>
+         </tr>
+         </tbody> 
+
+     </table>
+     <!--Html List-->
+
+     <!--Unordered List-->
+     <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+     </ul>
+
+     <!--Ordered List-->
+     <ol>
+        <li>Ready</li>
+        <li>Set</li>
+        <li>Go</li>
+     </ol>
+
+     <!--Description List-->
+     <dl>
+        <dt> HTML </dt>
+        <dd>HyperText Markup Language for creating web pages structure</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style sheets for styling web pages</dd>
+        <dt>JS</dt>
+        <dd>JavaScript is a reactive programming Language</dd>
+     </dl>
+
+     <!--HTML Links-->
+
+    <a class="link" href="https://www.programiz.com/swift-programming/continue-statement">Swift Continue Statement
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfjS-7Go8mmj8Bo_Ao_2Q_E1sWCBLufdwkdzGHrxNj9w&s=10" alt="programiz logo">
+    </a>
+
+    <!--HTML FORM-->
+    <form>
+        <label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="FirstName" required>
+
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" name="LastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id = "email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="Submit" value="submit">
+    </form>
+
+</body>
+</html>
+</DOCTYPE>

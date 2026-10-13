@@ -1,0 +1,8 @@
+PWD-Where a, I from a perspective of the current location{directory}
+Ls-what is present in the currently accessed directory and is publicly visible
+ls -a(linux) ls -force(windows)-> What is present in the currently accessed directory and is hidden
+cd -> Allows one to navigate to a specific folder
+cd.. -> Allows one to navigate a step behind(to the parent folder)
+cd Folder-name -> Allows one to navigate to a specific folder-name
+mkdir ->Allows you to create a folder in a specific directory
+new-item file-name ->Allows you to create a file in the specific directory

@@ -1,0 +1,105 @@
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbIH0JYy_r49bIyRYu02Td1A7e8kx-C8TZKvjopogkQA&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Group selector*/
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+    text-decoration: underline;
+}
+
+/*ID SELECTOR- Use # */
+#myTable {
+    border-collapse: collapse ;
+    width: 100%;
+    background-color: lightblue;
+}
+
+/* Class Selector-use (.)*/
+.myList{
+    list-style-type: square;
+    color: darkgreen
+}
+ /*Universal Selector */
+*{
+    margin:0px;
+    Padding:0px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+/*Attribute Selector - Use A [Attribute] */
+
+p[class="first"] {
+   font-size: 20px;
+   color: green;
+}
+
+/*Pseudo class Selector - We use A : pseudo-class */
+
+.link:hover:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* Pseudo element selectors - Use a ::pseudo-element */
+
+p::first-letter{
+    font-weight: bold;
+    color:darkblue;
+}
+/* CSS FONTS*/
+
+body{
+    font-family: Arial,  sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    line-height: 20px;
+}
+
+/*CSS text formatting */
+
+li{
+    text-decoration: line-through;
+    text-transform: none; 
+}
+
+p{
+    word-spacing: 20px;
+    text-indent: 60px;
+    text-shadow: 1px 1px 2px red;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

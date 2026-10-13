@@ -1,0 +1,265 @@
+
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #10001f;
+    color: white;
+}
+/* HERO SECTION */
+.hero {
+    min-height: 90vh;
+
+    background:
+        linear-gradient(135deg, #ff00cc, #6a00ff, #00e5ff);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+/* SMALL TITLE */
+.small-title {
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+
+/* MAIN TITLE */
+.hero h1 {
+    font-size: 80px;
+    margin: 0;
+
+    color: white;
+
+    text-shadow:
+        4px 4px 0px #ff00cc,
+        8px 8px 0px #00e5ff;
+}
+
+.hero h2 {
+    font-size: 28px;
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+
+.hero p {
+    line-height: 1.8;
+}
+
+
+/* EVENT DETAILS */
+.event-details {
+    margin: 30px 0;
+    padding: 20px;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* PROGRAMME BUTTON */
+.programme-button {
+    display: inline-block;
+
+    padding: 16px 30px;
+
+    background-color: white;
+    color: #8a00ff;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 30px;
+
+    transition: 0.5s;
+}
+
+/* HOVER EFFECT */
+.programme-button:hover {
+    background-color: #ff00cc;
+    color: white;
+
+    transform: scale(1.08);
+}
+
+
+/* IMAGE */
+
+.image-section {
+    padding: 50px 20px;
+
+    text-align: center;
+
+    background-color: #10001f;
+}
+
+.image-section img {
+    width: 80%;
+    max-width: 900px;
+
+    border-radius: 25px;
+
+    border: 4px solid #ff00cc;
+
+    box-shadow:
+        0 0 20px #ff00cc,
+        0 0 40px #6a00ff;
+}
+
+
+/* HIGHLIGHTS */
+
+.highlights {
+    padding: 70px 20px;
+
+    text-align: center;
+
+    background-color: #18002b;
+}
+
+.section-label {
+    color: #00e5ff;
+
+    font-size: 13px;
+
+    letter-spacing: 4px;
+}
+
+.highlights h2,
+.programme h2 {
+    font-size: 35px;
+
+    margin-bottom: 40px;
+
+    color: #ff00cc;
+}
+
+
+/* HIGHLIGHT CARDS */
+
+.highlight-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+
+    padding: 30px;
+
+    background-color: #25003f;
+
+    border: 2px solid #6a00ff;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 20px rgba(255, 0, 204, 0.4);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #00e5ff;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+
+/* Programme Section */
+
+.programme {
+    padding: 70px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #16002b, #32005c);
+}
+
+.programme h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #ff00cc;
+}
+
+/* Ordered List */
+
+.schedule {
+    max-width: 750px;
+    margin: auto;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.schedule li {
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #210039;
+    border-left: 5px solid #ff00cc;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
+    line-height: 1.6;
+}
+
+.schedule li strong {
+    color: #00e5ff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 700px) {
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .highlight-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+
+    .schedule-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
